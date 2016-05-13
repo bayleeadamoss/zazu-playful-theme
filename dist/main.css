@@ -1,0 +1,103 @@
+html, body {
+  background-color: #3B81F5;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+section {
+  background-image: url('../images/taco.png');
+  background-position: 530px 5px;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  -webkit-app-region: drag;
+  cursor: move;
+}
+
+section > div:before {
+  content: "";
+  display: block;
+  height: 67px;
+  width: 100%;
+  background-color: #F487A9;
+  width: 600px;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  z-index: 0;
+}
+
+section input {
+  outline: none;
+  font-size: 40px;
+  width: 500px;
+  padding: 10px;
+  border: 0;
+  background-color: transparent;
+  -webkit-app-region: no-drag;
+  cursor: auto;
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+section input::-webkit-input-placeholder {
+  color: #B2CCEB;
+}
+
+section ul {
+  padding: 0;
+  margin: 0;
+  max-height: 333px;
+  overflow: scroll;
+}
+
+section ul li {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+  background-color: #85D5AF;
+}
+
+section ul li img {
+  height: 30px;
+  width: 30px;
+  margin: 7.5px;
+  float: left;
+}
+
+section ul li h2, section ul li h3 {
+  margin: 0;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+section ul li h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+section ul li h2:last-child {
+  font-size: 20px;
+  line-height: 45px;
+}
+
+section ul li h3 {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+section ul li.active {
+  background-color: #3B81F5;
+}
+
+section ul li.active:nth-child(odd) {
+  background-color: #EADF43;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "playful-theme",
+  "version": "1.0.0",
+  "description": "A dark theme for Zazu.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "Blaine Schmeisser",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "postcss-color-function": "^2.0.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-scss": "^0.1.7",
+    "postcss-simple-vars": "^1.2.0"
+  }
+}
