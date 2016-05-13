@@ -9,6 +9,7 @@ section {
   -webkit-app-region: drag;
   cursor: move;
   background-color: #85D5AF;
+  position: relative;
 }
 
 section > div:before {
@@ -22,8 +23,7 @@ section > div:before {
   background-repeat: no-repeat;
   background-size: 60px;
   width: 600px;
-  border-radius: 10px 10px 0 0;
-  position: absolute;
+  position: relative;
   z-index: 0;
 }
 
@@ -36,7 +36,8 @@ section input {
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  position: relative;
+  position: absolute;
+  top: 0;
   z-index: 1;
   color: #FFFFFF;
   font-weight: 700;
@@ -49,9 +50,8 @@ section input::-webkit-input-placeholder {
 section ul {
   padding: 0;
   margin: 0;
-  height: 333px;
+  max-height: 333px;
   overflow: scroll;
-  border-radius: 0 0 10px 10px;
 }
 
 section ul li {
