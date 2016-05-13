@@ -50,6 +50,7 @@ section ul {
   margin: 0;
   max-height: 333px;
   overflow: scroll;
+  border-radius: 0 0 10px 10px;
 }
 
 section ul li {
