@@ -13,10 +13,6 @@ html, body {
 }
 
 section {
-  background-image: url('../images/taco.png');
-  background-position: 530px 5px;
-  background-repeat: no-repeat;
-  background-size: 60px;
   -webkit-app-region: drag;
   cursor: move;
 
@@ -26,6 +22,10 @@ section {
     height: 67px;
     width: 100%;
     background-color: $pink;
+    background-image: url('../images/taco.png');
+    background-position: 530px 10px;
+    background-repeat: no-repeat;
+    background-size: 60px;
     width: 600px;
     border-radius: 10px 10px 0 0;
     position: absolute;
