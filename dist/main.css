@@ -8,6 +8,7 @@ html, body {
 section {
   -webkit-app-region: drag;
   cursor: move;
+  background-color: #85D5AF;
 }
 
 section > div:before {
@@ -48,7 +49,7 @@ section input::-webkit-input-placeholder {
 section ul {
   padding: 0;
   margin: 0;
-  max-height: 333px;
+  height: 333px;
   overflow: scroll;
   border-radius: 0 0 10px 10px;
 }
