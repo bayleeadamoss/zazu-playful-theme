@@ -5,6 +5,15 @@ html, body {
   font-size: 20px;
 }
 
+body.playbook #install {
+  color: #FFFFFF;
+}
+
+body.playbook .github-corner > svg {
+  fill: #F487A9;
+  color: #3B81F5;
+}
+
 section#zazu {
   -webkit-app-region: drag;
   cursor: move;

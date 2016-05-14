@@ -12,6 +12,17 @@ html, body {
   font-size: 20px;
 }
 
+body.playbook {
+  #install {
+    color: $white;
+  }
+
+  .github-corner > svg {
+    fill: $pink;
+    color: $blue;
+  }
+}
+
 section#zazu {
   -webkit-app-region: drag;
   cursor: move;
