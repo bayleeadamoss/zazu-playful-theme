@@ -12,7 +12,7 @@ html, body {
   font-size: 20px;
 }
 
-section {
+section#zazu {
   -webkit-app-region: drag;
   cursor: move;
   background-color: $green;

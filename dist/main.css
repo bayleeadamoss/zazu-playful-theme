@@ -5,14 +5,14 @@ html, body {
   font-size: 20px;
 }
 
-section {
+section#zazu {
   -webkit-app-region: drag;
   cursor: move;
   background-color: #85D5AF;
   position: relative;
 }
 
-section > div:before {
+section#zazu > div:before {
   content: "";
   display: block;
   height: 67px;
@@ -27,7 +27,7 @@ section > div:before {
   z-index: 0;
 }
 
-section input {
+section#zazu input {
   outline: none;
   font-size: 40px;
   width: 500px;
@@ -43,18 +43,18 @@ section input {
   font-weight: 700;
 }
 
-section input::-webkit-input-placeholder {
+section#zazu input::-webkit-input-placeholder {
   color: #B2CCEB;
 }
 
-section ul {
+section#zazu ul {
   padding: 0;
   margin: 0;
   max-height: 333px;
   overflow: scroll;
 }
 
-section ul li {
+section#zazu ul li {
   display: block;
   height: 45px;
   line-height: 45px;
@@ -63,14 +63,14 @@ section ul li {
   background-color: #85D5AF;
 }
 
-section ul li img {
+section#zazu ul li img {
   height: 30px;
   width: 30px;
   margin: 7.5px;
   float: left;
 }
 
-section ul li h2, section ul li h3 {
+section#zazu ul li h2, section#zazu ul li h3 {
   margin: 0;
   padding-left: 10px;
   white-space: nowrap;
@@ -81,25 +81,25 @@ section ul li h2, section ul li h3 {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 }
 
-section ul li h2 {
+section#zazu ul li h2 {
   font-size: 20px;
   line-height: 25px;
 }
 
-section ul li h2:last-child {
+section#zazu ul li h2:last-child {
   font-size: 20px;
   line-height: 45px;
 }
 
-section ul li h3 {
+section#zazu ul li h3 {
   font-size: 15px;
   line-height: 15px;
 }
 
-section ul li.active {
+section#zazu ul li.active {
   background-color: #3B81F5;
 }
 
-section ul li.active:nth-child(odd) {
+section#zazu ul li.active:nth-child(odd) {
   background-color: #EADF43;
 }
