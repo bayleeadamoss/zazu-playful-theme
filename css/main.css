@@ -96,6 +96,10 @@ section#zazu {
         background-color: $green;
         width: 100%;
 
+        &.active .icon {
+          color: $blue;
+        }
+
         .icon {
           color: $pink;
           text-align: center;

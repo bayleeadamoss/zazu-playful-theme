@@ -91,6 +91,10 @@ section#zazu div.results ul li {
   width: 100%;
 }
 
+section#zazu div.results ul li.active .icon {
+  color: #3B81F5;
+}
+
 section#zazu div.results ul li .icon {
   color: #F487A9;
   text-align: center;
