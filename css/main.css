@@ -96,7 +96,10 @@ section#zazu {
         background-color: $green;
         width: 100%;
 
-        img {
+        .icon {
+          color: $pink;
+          text-align: center;
+          line-height: 30px;
           height: 30px;
           width: 30px;
           margin: 7.5px;
