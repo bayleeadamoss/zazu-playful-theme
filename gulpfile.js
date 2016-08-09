@@ -9,8 +9,8 @@ var postcssUrl = require('postcss-url')
 gulp.task('build', function () {
   var processors = [
     nested,
-    colorFunction(),
     vars(),
+    colorFunction(),
     postcssUrl({
       url: 'inline',
       maxSize: 999,

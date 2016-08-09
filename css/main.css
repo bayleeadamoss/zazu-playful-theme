@@ -4,15 +4,17 @@ $green: #85D5AF;
 $white: #FFFFFF;
 $yellow: #EADF43;
 $offwhite: #B2CCEB;
+$transparent: 80%;
 
 html, body {
-  background-color: $blue;
   margin: 0;
   padding: 0;
   font-size: 20px;
 }
 
 body.playbook {
+  background-color: $blue;
+
   #install {
     color: $white;
   }
@@ -26,7 +28,7 @@ body.playbook {
 section#zazu {
   -webkit-app-region: drag;
   cursor: move;
-  background-color: $green;
+  background-color: color($green a($transparent));
   position: relative;
 
   > div:before {
@@ -34,7 +36,7 @@ section#zazu {
     display: block;
     height: 67px;
     width: 100%;
-    background-color: $pink;
+    background-color: color($pink a($transparent));
     background-image: url('../images/taco.png');
     background-position: 530px 10px;
     background-repeat: no-repeat;
@@ -93,7 +95,7 @@ section#zazu {
         line-height: 45px;
         -webkit-app-region: no-drag;
         cursor: pointer;
-        background-color: $green;
+        background-color: color($green a($transparent));
         width: 100%;
 
         &.active .icon {
@@ -136,10 +138,7 @@ section#zazu {
         }
 
         &.active {
-          background-color: $blue;
-          &:nth-child(odd) {
-            background-color: $yellow;
-          }
+          background-color: color($yellow a($transparent));
         }
       }
     }
