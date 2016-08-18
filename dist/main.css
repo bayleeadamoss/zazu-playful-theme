@@ -134,6 +134,6 @@ section#zazu div.results ul li h3 {
   line-height: 15px;
 }
 
-section#zazu div.results ul li.active {
+section#zazu div.results ul li.active, section#zazu div.results ul li:hover {
   background-color: rgba(234, 223, 67, 0.8);
 }

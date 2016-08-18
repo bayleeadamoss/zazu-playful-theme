@@ -137,7 +137,7 @@ section#zazu {
           line-height: 15px;
         }
 
-        &.active {
+        &.active, &:hover {
           background-color: color($yellow a($transparent));
         }
       }
