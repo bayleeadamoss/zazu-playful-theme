@@ -8,13 +8,11 @@ A playful theme example written in Post CSS with node/gulp.
 
 ## Installing
 
-Mark `tinytacoteam/zazu-playful-theme` inside of your `~/.zazurc.js` file.
+Mark `tinytacoteam/zazu-playful-theme` inside of your `~/.zazurc.json` file.
 
-~~~ javascript
-module.exports = {
-  // ...
-  'theme': 'tinytacoteam/zazu-playful-theme',
-  // ...
+~~~ json
+{
+  "theme": "tinytacoteam/zazu-playful-theme"
 }
 ~~~
 
